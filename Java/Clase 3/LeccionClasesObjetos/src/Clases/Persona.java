@@ -6,7 +6,9 @@
 package Clases;
 
 public class Persona {
-    int a, suma, b;
-   
+    
+   // Atributos de la clase (Caracteristicas)
+    String nombre;
+    String apellido;
     
 }
