@@ -16,8 +16,8 @@ package Clases;
 public class Persona {  // 'Persona' es un constructor. Sirve para poder crear un objeto de la clase.
     
    // Atributos de la clase (Caracteristicas)
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
     
     // Metodos de la clase (Acciones)
     public void obtenerInformacion(){ // 'public' indica que el metodo se puede utilizar fuera de esta clase. 
