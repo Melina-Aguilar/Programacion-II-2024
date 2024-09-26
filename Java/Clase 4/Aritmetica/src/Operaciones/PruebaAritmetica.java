@@ -27,15 +27,47 @@ public class PruebaAritmetica {
         
         // aritmetica1 = null;   Nunca utilizar esto
         // System.gc();   Metodo para limpiar residuos, es PESADO, no utilizar.
+        
+        Persona persona = new Persona("Ariel", "Betancud");
+        System.out.println("persona = " + persona);
+        System.out.println("Persona nombre: "+persona.nombre);
+        System.out.println("Persona apellido: "+persona.apellido);
     }
     
 // El alcance de un atributo es superior al de una variable local
 //    variables locales --> Memoria stack
 //    objetos o atributos --> Memoria heap
     
+    // Modularidad | creamos un nuevo metodo
     // Otro metodo
     public static void  miMetodo(){
         // a = 10;  // Una variable esta limitada
         System.out.println("Aqui hay otro metodo");
+    }
+}
+
+// Solo puede haber una clase publica
+// Creamos una nueva clase
+class Persona{
+    String nombre;
+    String apellido;
+    
+    Persona(String nombre, String apellido){  // constructor
+        super(); //Llamada al constructor de la clase Padre object
+        new Imprimir().imprimir(this);
+        this.nombre = nombre;
+        this.apellido = apellido;
+        System.out.println("Objeto persona usando this: "+this);
+    }
+}
+
+class Imprimir{
+    public Imprimir(){
+        super(); // el constructor de la clase padre, para reservar memoria
+    }
+    
+    public void imprimir(Persona persona){
+        System.out.println("Persona desde la clase imprimir: "+persona);
+        System.out.println("Impresion del objeto actual (this: "+this);
     }
 }
