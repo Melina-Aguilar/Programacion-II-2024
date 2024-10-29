@@ -53,7 +53,7 @@ import InteresesComponente from './components/InteresesComponente.vue';
 
 <style scoped>
 .container {
-    background-color: rgba(46, 233, 240, 0.123); /* Fondo oscuro con transparencia */
+    background-color: rgba(23, 134, 199, 0.082); /* Fondo oscuro con transparencia */
     padding: 20px; /* Espaciado interno */
     border-radius: 10px; /* Esquinas redondeadas */
     margin: 20px; /* Margen para separar del resto del contenido */
