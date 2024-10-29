@@ -17,13 +17,10 @@ const mail = 'aguilarmelinaelizabeth@gmail.com';
 </script>
 
 <template>
-    <section class="datos-personales">
-        <div class="card">
-            <div class="perfil-container">
-              <img src="/src/assets/fondo8.jpg" alt="Foto de perfil" class="foto-perfil">
-              <div class="info-perfil">
+  <section class="datos-personales">
+       <div class="card">
                <h1>{{ tittle }}</h1>
-                <h2>{{descripcion}}</h2>
+               <h2>{{descripcion}}</h2>
                <p>{{presentacion}}</p>
                <ul class="container-lista">
                     <li v-for="red in redesSociales" :key="red.id">
@@ -32,11 +29,8 @@ const mail = 'aguilarmelinaelizabeth@gmail.com';
                </ul>
                <h3>Contacto: {{mail}}</h3>
                <h4>{{residencia}}</h4>
-              </div>
-            </div>
-          </div>
-
-     </section>
+         </div>
+   </section>
 </template>
 
 <style scoped>
@@ -63,19 +57,6 @@ p {
   margin: 10px;
   text-align: center;
 }
-.perfil-container {
-  display: flex; /* Usa flexbox para alinear los elementos */
-  align-items: center; /* Centra verticalmente */
-}
-
-.foto-perfil {
-  width: 400px; /* Tamaño de la foto de perfil */
-  height: 400px; /* Tamaño de la foto de perfil */
-  border-radius: 50%; /* Hacer la imagen circular */
-  margin-right: 10px; /* Espacio entre la imagen y el texto */
-
-}
-
 
 .container-lista {
   display: flex;
