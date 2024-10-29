@@ -212,7 +212,7 @@ const habilidades = ref([
     background-position: center;
     background-repeat: no-repeat; */
     /*Fondo con gradiente*/
-    background: linear-gradient(-45deg, #021526, #03346E, #6EACDA, #E2E2B6);
+
     /*Fondo con color solido*/
     /* background-color: rgb(28, 41, 52); */
 }
@@ -252,7 +252,7 @@ const habilidades = ref([
 }
 
 .skill:hover {
-    background-color: rgba(2, 151, 151, 0.963);
+    background-color: rgba(24, 197, 197, 0.963);
 }
 
 .skill img {
@@ -266,7 +266,7 @@ const habilidades = ref([
 }
 
 .skill:hover {
-    font-size: 1.3em;
+    font-size: 1.1em;
     transition: 2s ease;
 }
 

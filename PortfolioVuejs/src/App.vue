@@ -16,32 +16,34 @@ import InteresesComponente from './components/InteresesComponente.vue';
         <DatosPersonales />
     </header>
     <main>
-        <!--el estilo css de section se encuentra en base.css-->
-        <section id="educacion">
-            <h2>Educación - Cursos</h2>
-            <!--Componente Educación-->
-            <Educacion />
-        </section>
-        <section id="experiencia">
-            <h2>Experiencia</h2>
-            <!--Componente Experiencia-->
-            <ExperienciaComponente />
-        </section>
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-            <!--Componente Proyectos-->
-            <ProyectosComponente />
-        </section>
-        <section id="habilidades">
-            <!--Componente Habilidades-->
-            <h2>Habilidades</h2>
-            <HabilidadesComponente />
-        </section>
-        <section id="intereses">
-            <!--Componente Intereses-->
-            <h2>Intereses</h2>
-            <InteresesComponente />
-        </section>
+        <div class="container">
+            <!--el estilo css de section se encuentra en base.css-->
+            <section id="educacion">
+                <h2>Educación - Cursos</h2>
+             <!--Componente Educación-->
+             <Educacion />
+          </section>
+            <section id="experiencia">
+             <h2>Experiencia</h2>
+              <!--Componente Experiencia-->
+               <ExperienciaComponente />
+          </section>
+         <section id="proyectos">
+                <h2>Proyectos</h2>
+              <!--Componente Proyectos-->
+              <ProyectosComponente />
+          </section>
+          <section id="habilidades">
+             <!--Componente Habilidades-->
+              <h2>Habilidades</h2>
+              <HabilidadesComponente />
+          </section>
+          <section id="intereses">
+              <!--Componente Intereses-->
+                <h2>Intereses</h2>
+             <InteresesComponente />
+         </section>
+        </div>
     </main>
     <footer>
         <a href="#top">Inicio</a>
@@ -50,6 +52,12 @@ import InteresesComponente from './components/InteresesComponente.vue';
 </template>
 
 <style scoped>
+.container {
+    background-color: rgba(46, 233, 240, 0.123); /* Fondo oscuro con transparencia */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Esquinas redondeadas */
+    margin: 20px; /* Margen para separar del resto del contenido */
+}
   footer {
     display: flex;
     flex-direction: column;

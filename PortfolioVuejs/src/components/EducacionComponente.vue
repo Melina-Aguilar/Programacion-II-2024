@@ -22,7 +22,7 @@ educacion.value = [
         <h3 class="tittle">{{ item.tittle }}</h3>
         <div class="descripcion">{{ item.descripcion }}</div>
         <!--Aqui vemos con el uso de b-vind (:) que bindeamos el atributo href de html con el item.enlace-->
-        <a class="enlace" :href="item.enlace" target="_blank">Saber más</a>
+     
         </li>
     </ul>
 </template>
