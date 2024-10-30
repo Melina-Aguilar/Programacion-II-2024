@@ -64,7 +64,7 @@ a:hover {
 @media (max-width: 768px) {
 .navbar-menu {
   display: flex; /* Organiza los elementos en línea usando flexbox */
-  justify-content: flex-end; /* Alinea los elementos al final de la navbar */
+  justify-content: center; /* Alinea los elementos al final de la navbar */
   width: 100%; /* Asegura que la navbar ocupe el 100% del ancho en pantallas pequeñas */
 }
 }
