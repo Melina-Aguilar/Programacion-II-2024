@@ -51,7 +51,7 @@ a {
   text-decoration: none; /* Elimina el subrayado de los enlaces */
   margin-right: 1rem; /* Añade un margen derecho de 1rem entre los elementos */
   border-radius: 5px; /* Redondea las esquinas del borde */
-  padding: 8px; /* Añade un padding de 5px alrededor del contenido */
+  padding: 5px; /* Añade un padding de 5px alrededor del contenido */
   transition: transform 0.2s; /* Transición suave para el efecto */
 }
 

@@ -53,9 +53,9 @@ const intereses = ref([
     list-style-type: none;
     padding: 1rem;
     margin-bottom: .5rem;
-    color: var(--vt-c-white-soft);
+    color: #fff;
     font-size: 1.4rem;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+    text-shadow: 3px 3px 6px rgb(26, 26, 26);
 }
 
 .item {
