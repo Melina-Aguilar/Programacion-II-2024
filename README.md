@@ -7,4 +7,4 @@ Este repositorio contiene ejercicios y proyectos realizados para la materia Prog
   
 Cada carpeta contiene archivos de código fuente y, en algunos casos, explicaciones sobre los ejercicios.
 
-## No esta completo.
+## No esta actualizado.
